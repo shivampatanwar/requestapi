@@ -134,7 +134,7 @@ function fetchDataBySalary() {
 }
 
 function deleteDataById() {
-    fetch("https://springbootmongodbrestapi.up.railway.app/api/v1/employees/66d95572d46a28772f35495e", {
+    fetch("https://springbootmongodbrestapi.up.railway.app/api/v1/employees/66db44c68706623ccd625bfb", {
         method: "DELETE"
     })
         .then((response) => response.json())
